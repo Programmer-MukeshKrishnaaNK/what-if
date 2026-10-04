@@ -1,0 +1,23 @@
+{
+  "name": "what-if",
+  "private": true,
+  "version": "0.1.0",
+  "description": "WHAT IF? \u2014 an interactive science experience. Change one rule of reality. See what happens next.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5300 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 5301 --strictPort",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  },
+  "dependencies": {
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "@fontsource-variable/schibsted-grotesk": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0"
+  }
+}
